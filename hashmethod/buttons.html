@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>buttons</h1>
+    <button onmouseover="mouseoverfun()" id="test">test</button> <br><br>
+    <img onmouseover="mouseoverfun()" src="https://images.unsplash.com/photo-1582340172340-21b7e0a17b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8a3RtJTIwZHVrZXxlbnwwfHwwfHw%3D&w=1000&q=80">
+    <button onclick="movefun()" id="verify">verify</button> <br><br>
+    <button onmouseleave="mouseleavefun()" id="next">next</button> <br><br>
+    <button ondblclick="dblclickfun()" id="save">save</button> <br><br>
+    <button on></button>
+    
+    <script>
+        function mouseoverfun(){
+            document.getElementById("test").style.background="blue"
+        }
+
+        function movefun(){
+            document.getElementById("verify").style.background="teal"
+        }
+        function mouseleavefun(){
+            document.getElementById("next").style.background="olive"
+        }
+        function dblclickfun(){
+            document.getElementById("save").style.background="yellow"
+        }
+    </script>
+
+
+
+
+
+
+</body>
+</html>
